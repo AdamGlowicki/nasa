@@ -1,0 +1,1 @@
+export const handleApiError = (fn, callback) => (...params) => fn(...params).catch(callback)
